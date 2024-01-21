@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 50px;
+}
+.colomn{
+    display: flex;
+    flex-direction: column;
+}
+.social-logo{
+    height: 18px;
+    width: 18px;
+}
+.sous-header{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    display: flex;
+    justify-content: space-evenly;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+#all{
+    background-color: #82caf2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(0, 0, 0,0.1);
+    max-width: 900px;
+    border-radius: 6px;
+    padding: 30px;
+    gap: 50px;
+    
+}
+.all-1{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+img{
+    height: 85px;
+    width: 325px;
+}
+
+.sous-logo{
+    width: 33px;
+    height: 33px;
+    margin-top: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* margin-top: 5px; */
+}
+input[type=text],input[type=date],input[type=email],input[type=password] {
+    height: 10px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+fieldset {
+    border: 2px solid #1F2283; /* Set the border color to red (#ff0000) */
+    border-radius: 8px; /* Optional: add border-radius for rounded corners */
+    padding: 10px; /* Optional: add padding for better visual appearance */
+  }
+
+input[type=submit]{
+    background-color: #1F2283;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
